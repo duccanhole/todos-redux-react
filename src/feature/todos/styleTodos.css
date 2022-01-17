@@ -1,0 +1,35 @@
+.task{
+    padding: 3%;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+input[type='checkbox']{
+    visibility: hidden;
+}
+input[type="checkbox"] + label span {
+    display: inline-block;
+    cursor:pointer;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: white;
+    color: white;
+    width: 15px;
+    height: 15px;
+}
+input[type="checkbox"]:checked + label span {
+    color: green;
+    background-color: lightgrey;
+}
+.btn-del{
+    cursor: pointer;
+    clear: both;
+    float: right;  
+    background-color: tomato;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
